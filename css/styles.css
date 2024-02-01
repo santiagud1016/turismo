@@ -1,0 +1,173 @@
+header{
+    background: url("../img/bg-header.png");
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    padding-top: 20px ;
+}
+
+.bg-nav-rumbo{
+    background: transparent !important;
+}
+
+.bg-nav-rumbo ul li a.nav-link{
+    color: white;
+    font-size: 24px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+}
+.bg-nav-rumbo ul li a.nav-link:hover{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+#hero{
+    text-align: center;
+    margin-top: 200px;
+    
+}
+#hero h2{
+font-size: 60px;
+color: #e8f006;
+margin-bottom: 0px;
+}
+#hero h1{
+    color: white;
+    margin-bottom: 100px;
+}
+#hero button{
+    background: #e8f006;
+    color: #666;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 26px;
+    font-weight: 700;
+    border-color: transparent;
+}
+/* estilos de la seccion planes */
+
+#planes{
+    padding: 120px 0;
+    text-align: center;
+}
+#planes h2{
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+#planes p{
+    font-size: 22px;
+}
+#planes .plan{
+    margin-top: 80px;
+    position: relative;
+}
+#planes .plan h3{
+    color: #e8f006;
+position: absolute;
+z-index: 99;
+top: 100px;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+/* Estilos de la sección destinos */
+
+#destinos{
+    width: 100%;
+    background: url("../img/bg-destinos.png");
+    background-size: cover;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#destinos h2{
+    color: #e8f006;
+    font-size: 40;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+
+#destinos h3 {
+    color: #fff;
+    font-size: 28px;
+    margin: 20px 0px 50px;
+}
+/* Estilo seccion contactos */
+ 
+#contactos{
+    width: 100%;
+    background: #e8f006;
+    text-align: center;
+    padding: 150px 0 ;
+}
+
+#contactos h2{
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+#contactos p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+#contactos form{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+#contactos form input, 
+#contactos form select{
+    padding: 10px 15px;
+    width: 100%;
+    margin: 15px 0;
+    border: 1px solid #666;
+    border-radius: 4px;
+
+}
+
+#contactos form button {
+    padding: 10px 40px;
+    background-color: #b6bb21;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 1px solid #b6bb21;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    
+}
+/* Efectos hover */
+#hero img, 
+nav img:hover{
+    transition: 5s;
+    
+}
+#hero button,
+#planes img {
+    transition: 0s;
+}
+#hero img:hover{
+    transform:  rotate(-360deg);
+}
+#hero nav:hover{
+    transform: scale(1.1);
+}
+#hero button:hover{
+    box-shadow: 4px 6px 6px 4px black;
+}
+#planes img:hover{
+    border-radius: 0px 40px 0 40px;
+}
+
+#destinos img:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+
